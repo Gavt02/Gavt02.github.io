@@ -9,20 +9,34 @@
 </head>
 
 <body>
-  <script src="script.js"></script>
-  <div class="parent">
-    <div class="div1"><H1> Gavglows Games </H1> </div>
-    <div class="div2"><button>Who am I</button>
-    <button>Year I was born</button><button>What music I like</button> <button>What is my favorite class</button> <button>What I plan to do in the future</button></div>
+      <script src="script.js"></script>
+<div class="header">
+  <button onclick="showPage('div1')">Who am I</button>
+  <button onclick="showPage('div2')">Year I was born</button>
+  <button onclick="showPage('div3')">What music I like</button> 
+  <button onclick="showPage('div4')">What is my favorite class</button> 
+  <button onclick="showPage('div5')">What I plan to do in the future</button>
+  <button onclick="showPage('page1')">Home</button>
+</div>
   
-    <div class="div3">
-      <div id="b1" class="blank"></div>
-      <div id="b2" class="blank"></div>
+ 
+    <div id="div1" class="hidden">
+      <div class="inside1">My name is Gavin Terborg, I am a student at SVU and I currently work at Chick-fil-A, I am also a bit of a gamer</div>
     </div>
-    <div class="div4">
-      <image class="pic" src="InkedThe-Wild-Eight-new_LI.jpg"</image>
+    <div id="div2" class="hidden">
+      <div class="inside2">I was born on July 18th, 2002 in Ogden Utah where I lived for 21 years of my life</div>
     </div>
-      
+    <div id="div3" class="hidden">
+      <div class="inside3">I like all types of music but as of lately, I have been really into rock and a little bit of country </div>
+    </div>
+    <div id="div4" class="hidden">
+      <div class="inside4"> My two favorite classes are Child and Adolecent development and Authoring for the Web </div>
+    </div>
+  <div id="div5" class="hidden">
+  <div class="inside5"> For the future, I plan on getting my bachelor's and to be married to the most beautiful woman!</div>
+  </div>
+  <div id="page1" class="show"><image class="pic" src="InkedThe-Wild-Eight-new_LI.jpg"></image></div>
+
 </body>
 
 </html>
