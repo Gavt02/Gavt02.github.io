@@ -1,6 +1,8 @@
 function showPage (target){
 
-  document.getElementsByClassName('show')[0].className='hide';
+  for(element of document.getElementsByClassName('show')){
+    element.className = 'hidden'
+  }
 
   document.getElementById(target).className = 'show';
   
